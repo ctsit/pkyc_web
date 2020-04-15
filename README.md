@@ -8,3 +8,5 @@ This repo holds the bootstrap website for pkyc.ctsi.ufl.edu that is used to navi
 ## Deployment Instructions
 
 Deploying the website content requires that the id_rsa.pub file be added to the authorized_keys file found on the UFIT Apache hosted instance. To connect to the Apache instance ssh cnswww-pkyc.ctsi@glint-prod06.osg.ufl.edu.
+
+Additionally, you can use the deploy.sh script to copy the content of the pkyc-web folder to the website.
