@@ -1,0 +1,145 @@
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav temp-menu">
+        <li>
+            <a id="index" href="index.html?pgid=index&lang=en">FAQ</a>
+        </li>
+
+    </ul>
+</div>
+<!-- /.navbar-collapse -->
+
+<!-- Collect all the querystring aprameters and then update the nav bar css based on the language or pageid-->
+<script>
+
+    var queryValues = {};
+
+    $.each(window.location.href.split('?').pop().split('&'), function (i, v)
+    {
+      var v = v.split('=');
+      if(v.length > 1) // prevent v[1] from erroring if no querystring present
+        queryValues[ v[0].toLowerCase() ] = v[1].toLowerCase();
+    });
+
+    if ( queryValues.lang == 'en' )
+    {
+      //Do something smart here with the english/spanish nav labels
+      //$('.Image4x4, .verticleBar').css('float', 'right');
+      //alert('hello')
+    }
+
+    //This handles someone coming to JUST index.html
+    if (location.pathname.substring(1) == 'index.html'){
+
+      //alert(location.pathname.substring(1))
+      document.getElementById('index').classList.add('active_class')
+
+    }
+
+    if ( queryValues.pgid == 'index') {
+
+      //alert('index:hello')
+      //$("#index").addClass('test_class');
+      document.getElementById('index').classList.add('active_class')
+    }
+
+    //This handles someone coming to JUST learn.html
+    if (location.pathname.substring(1) == 'learn.html'){
+
+      //alert(location.pathname.substring(1))
+      document.getElementById('learn').classList.add('active_class')
+    }
+
+
+    if ( queryValues.pgid == 'learn') {
+
+      //alert('index:hello')
+      //$("#index").addClass('test_class');
+      document.getElementById('learn').classList.add('active_class')
+    }
+
+    //This handles someone coming to JUST participate.html
+    if (location.pathname.substring(1) == 'participate.html'){
+
+      //alert(location.pathname.substring(1))
+      document.getElementById('participate').classList.add('active_class')
+    }
+
+    if ( queryValues.pgid == 'participate') {
+
+      //alert('index:hello')
+      //$("#index").addClass('test_class');
+      document.getElementById('participate').classList.add('active_class')
+    }
+
+    //This handles someone coming to JUST resources.html
+    if (location.pathname.substring(1) == 'resources.html'){
+
+      //alert(location.pathname.substring(1))
+      document.getElementById('resources').classList.add('active_class')
+    }
+
+    if ( queryValues.pgid == 'resources') {
+
+      //alert('index:hello')
+      //$("#index").addClass('test_class');
+      document.getElementById('resources').classList.add('active_class')
+    }
+
+    //This handles someone coming to JUST scientists.html
+    if (location.pathname.substring(1) == 'scientists.html'){
+
+      //alert(location.pathname.substring(1))
+      document.getElementById('scientists').classList.add('active_class')
+    }
+
+    if ( queryValues.pgid == 'scientists') {
+
+      //alert('index:hello')
+      //$("#index").addClass('test_class');
+      document.getElementById('scientists').classList.add('active_class')
+    }
+
+    //This handles someone coming to JUST team.html
+    if (location.pathname.substring(1) == 'team.html'){
+
+      //alert(location.pathname.substring(1))
+      document.getElementById('team').classList.add('active_class')
+    }
+
+    if ( queryValues.pgid == 'team') {
+
+      //alert('index:hello')
+      //$("#index").addClass('test_class');
+      document.getElementById('team').classList.add('active_class')
+    }
+
+    //This handles someone coming to JUST news.html
+    if (location.pathname.substring(1) == 'news.html'){
+
+      //alert(location.pathname.substring(1))
+      document.getElementById('news').classList.add('active_class')
+    }
+
+    if ( queryValues.pgid == 'news') {
+
+      //alert('index:hello')
+      //$("#index").addClass('test_class');
+      document.getElementById('news').classList.add('active_class')
+    }
+
+    //This handles someone coming to JUST contact.html
+    if (location.pathname.substring(1) == 'contactus.html'){
+
+      //alert(location.pathname.substring(1))
+      document.getElementById('contact').classList.add('active_class')
+    }
+
+    if ( queryValues.pgid == 'contact') {
+
+      //alert('index:hello')
+      //$("#index").addClass('test_class');
+      document.getElementById('contact').classList.add('active_class')
+    }
+
+</script>

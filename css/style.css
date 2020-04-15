@@ -1,0 +1,1907 @@
+p {
+	font-family: 'Hind', sans-serif;
+	font-weight:400;
+	font-size: 14pt;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+a {
+    color: #1285D0;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	font-size: 24px;
+}
+
+h3 {
+	font-family: 'Hind', sans-serif;
+	font-weight:600;
+	font-size: 22px;
+
+}
+
+h4 {
+	font-family: 'Hind', sans-serif;
+	font-weight:500;
+	font-size: 14px;
+}
+
+h5 {
+	font-family: 'Hind', sans-serif;
+	font-weight:700;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+    font-family: 'Hind', sans-serif;
+    font-size: 14pt;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+	float:left;
+}
+
+.larger__txt {
+    font-size: 16pt;
+}
+
+.text-orange {
+	color: #fcb03c;
+}
+
+.text-orange:hover {
+	color: #F7CB92;
+}
+
+.img-responsive {
+    max-width: 100%;
+    border: 1px #ddd solid;
+}
+
+.table {
+    font-size: 20px;
+}
+
+body {
+	padding-top: 110px;
+	background-color: #072C55;
+}
+
+.anchorpd:before {
+  display: block;
+  content: " ";
+  margin-top: -118px;
+  height: 118px;
+  visibility: hidden;
+}
+
+.clearboth {
+	clear: both;
+}
+
+.clearboth-md {
+    clear: both;
+}
+
+.pdtop60 {
+	padding-top: 60px;
+}
+
+.pdtop100 {
+	padding-top: 100px;
+}
+
+.pdtop30 {
+	padding-top: 30px;
+}
+
+.mgtop30 {
+	margin-top: 30px;
+}
+
+.pdbtm30 {
+	padding-bottom: 30px;
+}
+
+.mgbtm3 {
+    margin-bottom:3rem;
+}
+
+.pdrl5 {
+    padding:0 5rem;
+}
+
+.section-margin {
+    margin: 5rem 0;
+}
+
+.section-width-small {
+    margin: 5rem 2rem;
+}
+
+.cntrdiv {
+	margin: 0 auto;
+}
+
+/*-----------Announcement Image Section-------------*/
+.message {
+    font-family: 'Hind', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+		padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+.announce-img, .announce-img-contact {
+    background-image: url(../images/announce.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.announce-img {
+	height: 250px;
+}
+
+/*-----------Announcement Image Section-------------*/
+
+/*-----------Hero Image Section-------------*/
+.slogan {
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #FAAF3F;
+  border-color: #FAAF3F;
+}
+
+.btn-primary:hover, .btn-primary:active  {
+    color: #FAAF3F;
+    background-color: #fff;
+    border-color: #FAAF3F;
+}
+
+.logo-header, .logo, .logo-contact {
+	height: 75px;
+}
+
+.logo {
+	height: 55px;
+}
+
+.donate-btn {
+	width: 80px;
+    display: block;
+    margin: 0 auto !important;
+}
+
+.sunset-img, .sunset-img-contact {
+    background-image: url(../images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.sunset-img {
+	height: 500px;
+}
+
+.cover-heading, .cover-heading-contact {
+	padding-top: 140px;
+    margin-top: 0;
+}
+
+/*-----------Navigation Menu-------------*/
+/*.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus*/
+.active_class {
+    color: #804098 !important;
+    font-weight: 700;
+    font-family: 'Hind', sans-serif;
+    font-size: 18px !important;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #072C55;
+}
+
+.navbar-header {
+	height:80px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #072C55;
+    font-family: 'Hind', sans-serif;
+    font-size: 14pt;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #072C55;
+    background-color: transparent;
+}
+
+
+.navbar-inverse .navbar-right > li > a {
+	padding: 7px 10px 5px;
+	font-size: 15px;
+	color: #072C55;
+}
+
+
+
+.navbar-inverse .navbar-right > li > a:hover {
+		color: white;
+		background: #072C55;
+}
+
+.navbar-inverse {
+    border-color: #ddd;
+}
+
+.navbar {
+
+  margin-bottom: 0px;
+}
+
+.languages {
+	padding-top: 15px;
+}
+
+li p a {
+	color: #5a535d;
+	font-size: 18px;
+}
+
+li p a:active {
+	color: #FAAF3F;
+	font-weight: 600;
+}
+
+.orange-btn-top {
+	color: white;
+}
+
+.activelang {
+	font-weight: 600;
+}
+
+.center {
+	float: none;
+    margin: 0 auto;
+}
+
+/*-----------Sections General Code-------------*/
+.bktotop {
+	padding: 30px 0;
+	font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.bktotop:hover {
+	color: #FBB03D;
+}
+
+.txtwhite {
+	color: white;
+}
+
+.txtalt {
+	color: orange;
+}
+
+.line {
+	margin:0 0 15px;
+
+}
+
+.line-hm {
+	margin:0;
+	border-color: #804197;
+	border-width: 2px;
+}
+
+.smline {
+	margin:15px 30px;
+	border-color: #804197;
+    border-width: 2px;
+}
+
+.smline-natlrsc {
+	margin:0 30px;
+	border-color: #804197;
+    border-width: 2px;
+}
+
+.line, .smline, .smline-natlrsc, .line-hm {
+	border-color: #804197;
+    border-width: 2px;
+    border-top: 2px solid #804197;
+}
+
+.m-t-0 {
+  margin-top: 0 !important;
+}
+
+.underline {
+	margin-top: 0;
+    border-top: 1px solid #a09d9d;
+}
+
+.zigzag {
+    position: relative;
+    padding: 8px 8px 32px 8px;
+}
+
+.zigzag:after {
+    background: linear-gradient(-45deg, #ffffff 16px, transparent 0), linear-gradient(45deg, #ffffff 16px, transparent 0);
+    background-position: left-bottom;
+    background-repeat: repeat-x;
+    background-size: 32px 32px;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 32px;
+    }
+
+/*-----------Our Mission Section-------------*/
+.img-width {
+	width: 100%;
+	}
+iframe {
+      min-height: 250px;
+      border: 5px;
+      border-color: #fff;
+      border-style:solid;
+      background-color:#FFF;
+  }
+
+.infographic-border {
+    border: white 10px solid;
+    margin-top:20px;
+}
+
+.font-lg{
+    font-size: 3.7rem;
+}
+
+.font-md {
+    font-size: 2.5rem
+}
+
+
+#grad1 {
+	padding-top:70px;
+    min-height: 100%;
+    background: #072C55; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #072C55, #4C4C4D); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #072C55, #4C4C4D); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #072C55, #4C4C4D); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #4C4C4D, #212F3C); /* Standard syntax (must be last) */
+}
+
+
+/*-----------Buttons Section (Why Participate, Resources, and News)-------------*/
+.buttonssec, .buttons {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    display:inherit;
+}
+
+.iconsection, .iconsection-sci {
+	display: none;
+}
+
+.orange-btn, .purple-btn, .grey-btn .red-btn .black-btn {
+    color: #FFF;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+}
+
+.red-btn {
+    background: #FF0000;
+}
+
+.red-btn:hover, .red-btn:active, .red-btn:focus {
+    background: #FC4D4D;
+    color: #fff;
+}
+
+.orange-btn {
+    background: #FAAF3F;
+}
+
+.orange-btn:hover, .orange-btn:active, .orange-btn:focus {
+    background: #F7CB92;
+    color: #fff;
+}
+
+.black-btn {
+    background: #000000;
+}
+
+.black-btn:hover, .black-btn:active, .black-btn:focus {
+    background: #454545;
+    color: #000000;
+}
+
+.custom-button {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 13px 35px 13px 35px;
+    border-radius: 4px;
+    margin: 10px;
+    border: none;
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
+}
+
+.hmpgbtns {
+	width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    margin: 10px 0;
+    white-space: normal;
+}
+
+.hmpgbtns:active {
+	border-color:#3D184B;
+	background-color:#3D184B;
+}
+
+
+/*-----------Our Partners Section-------------*/
+
+.universities {
+	list-style-type:none;
+}
+
+.uf, .msmc, .um, .fiu, .fau {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.uf, .msmc {
+	font-size: 25px;
+}
+
+.um, .fiu, .fau {
+	font-size: 21px;
+}
+
+.uf {
+	color:#0021A5;
+}
+
+.msmc {
+	color: #00abec;
+	}
+
+.um {
+	color: #005030;
+}
+
+.fiu {
+	color:#B6862C;
+}
+
+.fau {
+	color:#CC0000;
+}
+
+/*-----------Contact Form-------------*/
+
+.texturebackground {
+	background-image: url("../images/cubes.png");
+}
+
+.texturebackground {
+	background-color: rgba(132, 79, 173, 0.05);
+}
+
+.texturebackground-purple {
+	background-color: #804197;
+	color: white;
+}
+
+.form-control {
+	background-color: white;
+	}
+
+.form-control:focus {
+    border-color: #a46dae;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none ;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+    font-size: 1.7rem;
+}
+
+.contact_address-list {
+    padding-left: 0;
+    list-style-type: none;
+    color: blue;
+}
+
+a .contact_address-list {
+    color: white;
+}
+
+
+
+a .contact_address-list:hover, a .contact_address-list:focus {
+    color: #FBB03D;
+    text-decoration: none;
+}
+
+/*-----------Covid Form-------------*/
+
+.full-message {
+    font-family: 'Hind', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+		padding: 5px;
+    color: black;
+    text-align: center;
+}
+
+/*-----------News Page-------------*/
+.news-img {
+	background-image: url(../images/stock_photography/alzheimers-news.jpeg);
+	background-position: center center;
+	}
+
+.carousel-horizontal{
+	display: none;
+}
+
+	.article-horizontal{
+			background-color: white;
+			margin: auto;
+			padding: 20px 155px;
+			font: normal 13px sans-serif;
+			text-align: left;
+			width: auto;
+			height: 235px;
+	}
+
+	.article-left{
+		width: 45%;
+		padding-left: 5px;
+		float:left;
+	}
+
+	.article-right{
+		width: 50%;
+		float: right;
+		padding-left: 20px;
+	}
+
+	/* Article photo */
+	.article-left > a {
+	    display: inline-block;
+	    width: 100%;
+	    max-height: 190px;
+	    overflow: hidden;
+	}
+
+	.article-left > a img {
+	    width: 100%;
+	}
+
+	/* Article title */
+	.article-right h2 {
+	    font: bold 20px sans-serif;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    margin:0;
+	}
+
+	.article-right h2 a {
+	    color: #2b2b2b;
+	    text-decoration: none;
+	}
+
+	/* Article excerpt */
+	.article-right p {
+	    line-height: 20px;
+	    color: #5d5d5d;
+	    margin: 20px 0;
+	}
+
+	/* Read more button */
+	.article-right a.read-more {
+	    background-color: #804098;
+	    cursor: pointer;
+	    font-size: 12pt;
+	    color: #ffffff;
+	    text-decoration: none;
+	    padding: 10px 8px;
+	    border-radius: 2px;
+	    margin: 20px 0;
+	    font-weight: bold;
+	}
+
+
+.article-list-basic{
+		background-color: white;
+		list-style:none;
+    margin: 0 auto;
+    padding-top: 20px;
+		height: 500px;
+}
+
+.article-list-basic li{
+    box-sizing:border-box;
+    border-radius: 3px;
+    box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
+    border:1px solid #cfcfcf;
+    font: normal 13px sans-serif;
+    margin: auto;
+		padding: 0;
+		text-align: left;
+    max-width: 315px;
+}
+
+/* Article photo */
+.article-list-basic li > a {
+    display: block;
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+}
+
+.article-list-basic li > a img {
+    width: 100%;
+}
+
+.article-list-basic li div {
+		min-height: 252px;
+    padding: 25px 20px;
+}
+
+.placeholder_img-ADRC {
+    padding: 42px;
+    background-height: 210px;
+    background-color: rgba(254, 202, 254, 0.2);
+}
+
+/* Article title */
+.article-list-basic li h2 {
+    font: bold 16px sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin:0;
+}
+
+.article-list-basic li h2 a {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+/* Article excerpt */
+.article-list-basic li div p {
+    line-height: 20px;
+    color: #5d5d5d;
+    margin: 20px 0;
+}
+
+/* Read more button */
+.article-list-basic li a.read-more {
+    background-color: #804098;
+    cursor: pointer;
+    font-size: 12pt;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 8px;
+    border-radius: 2px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+
+/*--- RSS Feed for NEWS ---*/
+.panel-heading {
+        background-color: #804098 !important;
+        color: #fff !important;
+    }
+.panel-success  {
+    border-color: #ccc;
+}
+
+.panel-title {
+    font-size: 21px;
+    padding: 5px;
+}
+
+.panel-body {
+    font-size: 16px;
+    color: #585858;
+}
+
+.panel-body a {
+	font-weight: 500;
+}
+
+.thumbnail {
+    background-color: black;
+    position: relative;
+    width:  150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.thumbnail img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.thumbnail img.portrait {
+    width: 100%;
+    height: auto;
+}
+
+
+/*-----------Team Page-------------*/
+#team .bio a img {
+    width: 100%;
+    height: auto;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.bio {
+	margin-top:50px;
+}
+
+.bio {
+    float: left;
+    display: block;
+    width: 45%;
+    float: left;
+    clear: none;
+    max-height: 14.4em;
+    line-height: 1.2em;
+    margin-left: 5%;
+}
+
+.team-img{
+	width: 90%;
+}
+
+.team-img:hover {
+	opacity: .45;
+    filter: alpha(opacity=45); /*For IE8 and earlier*/
+}
+
+.member-img {
+	width: 50%;
+	text-align: center;
+}
+
+
+.teamtpmrgn, .teamtpmrgn-sp {
+	margin-top: 20px !important;
+}
+
+.txtwidth {
+	width:90%;
+}
+
+.mouse, .partiallogo, .sun {
+	transform: scale(.75);
+    transform-origin: 0 0;
+}
+
+.lgmouse {
+	transform: scale(1.4);
+    transform-origin: 0 0;
+}
+
+.mouse, .lgmouse {
+	background: url('../images/team_sprites.png') no-repeat -17px -25px;
+	width: 201px;
+	height: 201px;
+}
+
+.team_mobile {
+    clear: both;
+}
+
+.mouse:hover {
+	background: url('../images/team_sprites.png') no-repeat -10px -280px;
+	width: 201px;
+	height: 201px;
+}
+
+.partiallogo {
+	background: url('../images/team_sprites.png') no-repeat -305px -35px;
+	width: 202px;
+	height: 201px;
+}
+
+.partiallogo:hover {
+	background: url('../images/team_sprites.png') no-repeat -302px -284px;
+	width: 201px;
+	height: 201px;
+}
+
+.sun {
+	background: url('../images/team_sprites.png') no-repeat -609px -29px;
+	width: 201px;
+	height: 201px;
+}
+
+.sun:hover {
+	background: url('../images/team_sprites.png') no-repeat -606px -283px;
+	width: 201px;
+	height: 201px;
+}
+
+.placeholdermgn {
+	margin-top: -28px;
+}
+
+/*-----------Contact Page-------------*/
+.bgwhite {
+	background-color: rgba(255, 255, 255, 0.61);
+	border-radius: 0;
+	padding:10px;
+}
+
+.bgwhite-covid {
+	background-color: rgba(255, 255, 255, 0.95);
+	border-radius: 0;
+	padding:10px;
+}
+
+.sunset-img-contact {
+    height: 950px;
+}
+
+.sunset-img-contact-es {
+    padding-top: 150px;
+}
+
+.contact-img {
+	max-width: 100%;
+	border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom:20px;
+}
+
+.headingmobile {
+	text-align:center;
+}
+
+.logo-contact {
+	margin-top:10px;
+}
+
+
+/*-----------Footer-------------*/
+.bgdrkblue {
+	background-color: #072C55;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.imgpd {
+	padding: 10px 0;
+}
+
+.txtwhite ul a {
+	color:white;
+	font-size: 20px;
+}
+
+.txtwhite ul a:hover {
+	color:#b58bbf;
+	font-size: 20px;
+}
+
+/*-----------Resources Page-------------*/
+.zoom-ntl-btns {
+    transform: scale(.87);
+}
+
+.map {
+    padding:30px 0 50px 0 !important;
+}
+
+.overlay {
+   background:transparent;
+   position:relative;
+   width:100%;
+   height:400px;
+   top:400px;
+   margin-top:-400px;
+}
+
+
+/*-----------Donate Page-------------*/
+.donate-img {
+	background-image: url(../images/alz_walk_flowers.jpg);
+	background-position: center center;
+	}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.donate-caption-sm {
+	display:inline;
+	padding-left: 0;
+}
+
+.donate-caption-sm-2 {
+	display:block;
+}
+
+.donate-caption-lg {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+	color:purple;
+	display: inline;
+	padding: 0 15px;
+}
+
+.donate-caption-sm, .donate-caption-sm-2 {
+    font-family: 'Hind', sans-serif;
+    font-size: 30px;
+    color:purple;
+}
+
+.center-caption {
+	text-align:center;
+}
+
+.gift-btn {
+	padding: 13px;
+}
+
+
+/*-----------Page Title Background Images-------------*/
+.participate-img, .learn-img, .donate-img, .scientists-img, .resources-img, .news-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.participate-img, .learn-img, .donate-img, .scientists-img, .news-img {
+    height: 600px;
+}
+.resources-img {
+    height: 500px;
+}
+
+	.pagetitles, .pagetitles-grey, .pagetitles-grey-sp, .pagetitles-rsrc {
+    font-size: 60px;
+    position: absolute;
+    left: 5%;
+    text-transform:uppercase;
+}
+
+	.pagetitles {
+		color: white;
+		top: 600px;
+	}
+
+    .pagetitles-rsrc {
+        color: white;
+        top: 500px;
+    }
+	.pagetitles-grey, .pagetitles-grey-sp{
+		color: white;
+		top: 530px;
+	}
+
+
+
+/*-----------Scientists Page-------------*/
+.scientists-img {
+	background-image: url(../images/stock_photography/scientist-analising-test-tube.jpg);
+	background-position: left center;
+	}
+
+.ntl-btn {
+	background-color:white;
+	margin: 0 auto;
+	padding: 2px;
+    margin-bottom: 20px;
+    border-color: #c3c2c2;
+    border-width: 3px;
+    border-style: solid;
+	}
+
+.ntl-btn:hover {
+	border-width: 2px;
+    border-style: dashed;
+}
+
+.pub-btn {
+    width: 118px;
+    padding: 5px;
+    font-size: 12px;
+    white-space: normal;
+    margin: 0 0 0 10px;
+    line-height:12px;
+    background-color:#b2b2b2;
+}
+
+.biobtn {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+a.biolink {
+    color: #faaf3f;
+}
+
+.purple {
+	background-color:#814198;
+	color: white;
+	padding-top: 20px;
+}
+
+.grey-btn {
+	background: #b884cc;
+}
+
+.grey-btn:hover, .grey-btn:active, .grey-btn:focus {
+    background: #3e184b;
+    color: #fff;
+}
+
+.thanks_content {
+    padding: 10rem 5rem;
+}
+
+.wordwrap {
+    white-space: normal;
+}
+
+
+/*-----------Scientists Resources Subpages-----------*/
+.ss-size {
+	width: 100%;
+    border-color: #804098;
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px 0 40px 0;
+}
+
+.tools-btn {
+    justify-content: center;
+    align-items: center;
+    white-space: normal;
+}
+
+.dxster-img {
+    max-width:43rem;
+    text-align:center;
+}
+
+.sci_back {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form_sets {
+    color: #824797;
+}
+
+
+.measures_chart-border {
+    border: #999999 solid 1px;
+}
+
+.measures_chart-header {
+    background-color: rgba(132, 79, 173, .7);
+    padding: 20px 10px;
+    color: white;
+    margin: 0;
+}
+
+.measures_chart-body {
+    background-color: #e6e6e6;
+    list-style-type: none;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.measures_chart-body li p {
+    margin-bottom: 0;
+}
+
+.data_btn-icons {
+    position: relative;
+    top: -2px;
+    right: 3px;
+}
+
+/*-----------Learn Page-------------*/
+.learn-img {
+	background-image: url(../images/woman_learn.jpg);
+	background-position: left center;
+	}
+
+/*-----------Participate Page-------------*/
+.participate-img{
+    background-image: url(../images/bench_people.jpg);
+    background-position: center center;
+}
+
+/*-----------Resources Page-------------*/
+.resources-img{
+    background-image: url(../images/clasped_hands.jpg);
+    background-position: center center;
+}
+
+/*-----------Image Sprites-------------*/
+.icontxt, .icontxt-sm {
+	text-transform: uppercase;
+    padding-top: 20px;
+    font-weight:600;
+    color: #555;
+}
+
+.icontxt:hover, .icontxt-sm:hover {
+    color: #b58bbf;
+}
+
+.icontxt {
+    font-size: 24px;
+}
+
+.icontxt-sm {
+    font-size: 20px;
+}
+
+.circle-icon {
+	background: #804197;
+    padding: 27px;
+    border-radius: 100%;
+    width: 170px;
+    height: 155px;
+}
+
+.circle-icon:hover {
+	background: rgba(128, 65, 151, 0.52);
+}
+
+.dxster, .elderly, .threeppl, .house, .microscope, .flashbulb, .brain, .book, .dna, .clipboard, .doctor, .molocule, .lightbulb, .calculator, .dish, .computer {
+	display: inline-block;
+	margin-bottom: 20px;
+	transform: scale(.85);
+}
+
+.dxster {
+    background: url('../images/DxSter_Sprite.png') no-repeat -37px 0;
+    width: 85px;
+    height: 101px;
+    float: none;
+    margin: 0 auto;
+}
+
+.brain {
+	background: url('../images/ADRC_Sprites.png') no-repeat -188px -13px;
+	width: 90px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.book {
+	background: url('../images/ADRC_Sprites.png') no-repeat -329px -20px;
+	width: 136px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.book2 {
+	background: url('../images/ADRC_Sprites.png') no-repeat -361px -564px;
+	width: 127px;
+	height: 92px;
+	float: none;
+    margin: 0 auto;
+    transform: scale(.9);
+    margin-top: 4px;
+    margin-left: -5px;
+}
+
+.dna {
+	background: url('../images/ADRC_Sprites.png') no-repeat -497px -20px;
+	width: 59px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.clipboard {
+	background: url('../images/ADRC_Sprites.png') no-repeat -578px -13px;
+	width: 73px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.doctor {
+	background: url('../images/ADRC_Sprites.png') no-repeat -697px -11px;
+	width: 94px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.molocule {
+	background: url('../images/ADRC_Sprites.png') no-repeat -797px -3px;
+	width: 101px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.lightbulb {
+	background: url('../images/ADRC_Sprites.png') no-repeat -915px -5px;
+	width: 73px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.calculator {
+	background: url('../images/ADRC_Sprites.png') no-repeat -68px -290px;
+	width: 98px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.dish {
+	background: url('../images/ADRC_Sprites.png') no-repeat -205px -295px;
+	width: 114px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.dish2 {
+	background: url('../images/ADRC_Sprites.png') no-repeat -201px -558px;
+	width: 115px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+    margin-left: 2px;
+    transform: scale(.85);
+}
+
+.computer {
+	background: url('../images/ADRC_Sprites.png') no-repeat -349px -285px;
+	width: 127px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.microscope {
+	background: url('../images/ADRC_Sprites.png') no-repeat -72px -9px;
+	width: 82px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.microscope2 {
+	background: url('../images/ADRC_Sprites.png') no-repeat -75px -544px;
+	width: 81px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+    transform: scale(.95);
+}
+
+.house {
+	background: url('../images/ADRC_Sprites.png') no-repeat -499px -274px;
+	width: 139px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.threeppl {
+	background: url('../images/ADRC_Sprites.png') no-repeat -660px -270px;
+	width: 99px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.elderly {
+	background: url('../images/ADRC_Sprites.png') no-repeat -790px -269px;
+	width: 97px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+.flashbulb {
+	background: url('../images/ADRC_Sprites.png') no-repeat -918px -249px;
+	width: 89px;
+	height: 101px;
+	float: none;
+    margin: 0 auto;
+}
+
+/*-----------Participate Page Sections-------------*/
+.photoRight, .textLeft, .textRight, .photoLeft {
+	width: 100%;
+}
+
+
+/*-----------Media Query 367px wide or wider-------------*/
+@media screen and (min-width: 367px) {
+	/*-----------Team Page-------------*/
+	.bio {
+    margin-left: 5%;
+	}
+
+	.txtwidth {
+	width:150px;
+	}
+
+	.team-img {
+	width: 150px;
+    }
+}
+
+/*-----------Media Query 374px wide or wider-------------*/
+@media screen and (min-width: 374px) {
+    .team_mobile {
+        clear: none;
+    }
+}
+
+/*-----------Media Query 429px wide or wider-------------*/
+@media screen and (min-width: 429px) {
+	.pagetitles-grey{
+		top: 600px;
+	}
+}
+
+/*-----------Media Query 476px wide or wider-------------*/
+@media screen and (min-width: 476px) {
+    .tools-btn-data {
+        width: 396px;
+    }
+}
+
+/*-----------Media Query 520px wide or wider-------------*/
+@media screen and (min-width: 520px) {
+	/*-----------Team Page-------------*/
+	.bio {
+    width: 30%;
+    margin-left: 3%;
+	}
+}
+
+/*-----------Media Query 625px wide or wider-------------*/
+@media screen and (min-width: 625px) {
+	/*-----------Scientists Page-------------*/
+	.pagetitles-grey-sp {
+		top:600px;
+	}
+}
+
+
+/*-----------Media Query 712px wide or wider-------------*/
+@media screen and (min-width: 712px) {
+	/*-----------Team Page-------------*/
+	.bio {
+    width: 150px;
+	}
+}
+
+/*-----------Media Query 733px wide or wider-------------*/
+@media screen and (min-width: 733px) {
+	/* .slogan {
+    font-size: 40px;
+    color: white;
+    } */
+
+    .logo-header {
+    	height: 120px;
+    }
+
+    .sunset-img {
+    height: 600px;
+    }
+
+    .sunset-img-contact {
+    height: 1000px;
+    }
+
+		.announce-img {
+		height: 250px;
+		}
+
+		.announce-img-contact {
+		height: 250px;
+		}
+
+}
+
+
+/*-----------Media Query 768px wide or wider-------------*/
+@media screen and (min-width: 768px) {
+	/*-----------All Pages-------------*/
+	.slogan {
+    font-size: 40px;
+    color: white;
+    }
+
+	.message {
+	  font-size: 25px;
+	  color: white;
+	  }
+
+	.full-message {
+		font-size: 25px;
+		color: black;
+		}
+
+	body {
+        padding-top: 204px;
+    }
+
+    body.body_es {
+        padding-top: 154px;
+    }
+
+    .temp-menu {
+        float: right;
+        margin-right:-32px;
+        padding-top: 3px;
+    }
+
+    .logo {
+	   height: 75px;
+	}
+
+	.navbar-header {
+	   height:100px;
+	}
+
+	.donate-btn {
+    	width: 75px;
+    	display: inline-block;
+    	margin:10px !important;
+	}
+
+    .anchorpd:before {
+        display: block;
+        content: " ";
+        margin-top: -203px;
+        height: 203px;
+        visibility: hidden;
+    }
+
+    /*-----------Resources Page-------------*/
+    .zoom-ntl-btns {
+        transform: scale(.95);
+    }
+
+	/*-----------Scientists Page-------------*/
+	.biobtn {
+        height: 200px;
+	}
+
+	/*-----------Donate Page-------------*/
+	.donate-caption-lg {
+	   font-size: 55px;
+	   padding: 0 0 0 15px;
+	}
+
+	.donate-caption-sm, .donate-caption-sm-2 {
+	   font-size: 40px;
+	}
+
+	.donate-caption-sm {
+        padding-left: 20px;
+	}
+
+	.donate-caption-sm-2 {
+		padding-left:80px;
+	}
+
+
+	/*-----------Contact Page-------------*/
+	.bgwhite {
+		border-radius: 15px;
+	}
+
+	/*-----------Participate Page-------------*/
+	.photoRight {
+	   width: 40%;
+	   float:right;
+	}
+
+	.textLeft {
+		width: 55%;
+		float: left;
+	}
+
+	.textRight {
+		width: 55%;
+		float: right;
+	}
+
+
+	.photoLeft{
+		width: 40%;
+		float: left;
+	}
+
+    .height250 {
+        height: 250px;
+    }
+
+    .height224 {
+        height: 224px;
+    }
+
+
+/*-----------Buttons Section: Media Query 768px wide or wider-------------*/
+	.buttonssec, .universities {
+        display: none;
+    }
+
+	.icon-participate, .icon-news, .icon-resources, .icon-uf, .icon-msmc, .icon-um, .icon-fau, .icon-fiu {
+		display: inline-block;
+	}
+
+	.icon-participate {
+		background: url("../images/homepage_sprites.png") no-repeat -20px -2px;
+		width: 102px;
+    	height: 102px;
+	}
+
+	.icon-participate:hover {
+		background: url('../images/homepage_sprites.png') no-repeat -18px -128px;
+		width: 102px;
+		height: 102px;
+	}
+
+	.icon-resources {
+		background: url('../images/homepage_sprites.png') no-repeat -145px -2px;
+		width: 102px;
+		height: 102px;
+
+	}
+
+	.icon-resources:hover {
+		background: url('../images/homepage_sprites.png') no-repeat -143px -128px;
+    	width: 102px;
+    	height: 102px;
+    }
+
+	.icon-news {
+		background: url('../images/homepage_sprites.png') no-repeat -273px -2px;
+		width: 102px;
+		height: 102px;
+    }
+
+	.icon-news:hover {
+    	background: url('../images/homepage_sprites.png') no-repeat -271px -128px;
+    	width: 102px;
+    	height: 102px;
+    }
+
+	.iconsection {
+		padding: 80px 0;
+	}
+
+	.iconsection-sci {
+	    padding: 20px 0;
+	}
+
+	.iconsection, .iconsection-sci {
+	    display: block;
+	}
+
+	/*-----------Team Page-------------*/
+	.teamtpmrgn {
+	   margin-top: 60px !important;
+    }
+
+    .teamtpmrgn-sp {
+        margin-top:90px !important;
+    }
+
+
+    /*-----------Our Partners Section: Media Query 768px wide or wider-------------*/
+
+    .btmpd {
+    	padding-bottom: 50px;
+    }
+
+    .btmpd20 {
+    	padding-bottom: 20px;
+    }
+
+    .icon-uf{
+    	background: url('../images/university_sprites.png') no-repeat -130px -6px;
+    	width: 138px;
+    	height: 139px;
+    }
+
+    .icon-msmc {
+    	background: url('../images/university_sprites_3.png') no-repeat -383px -6px;
+    	width: 138px;
+    	height: 139px;
+    }
+
+    .icon-um {
+    	background: url('../images/university_sprites.png') no-repeat -35px -172px;
+    	width: 92px;
+    	height: 93px;
+    }
+
+    .icon-fau {
+    	background: url('../images/university_sprites.png') no-repeat -272px -177px;
+    	width: 88px;
+    	height: 88px;
+    }
+
+    .icon-fiu{
+    	background: url('../images/university_sprites.png') no-repeat -524px -177px;
+    	width: 88px;
+    	height: 88px;
+    }
+}
+
+
+
+
+/*-----------Media Query 930px wide or wider-------------*/
+@media screen and (min-width: 950px) {
+	.slogan {
+        font-size: 40px;
+        color: white;
+    }
+
+  .message {
+	      font-size: 25px;
+	      color: white;
+	  }
+
+	.full-message {
+				font-size: 25px;
+				color: black;
+		}
+}
+
+
+/*-----------Media Query 992px wide or wider-------------*/
+@media screen and (min-width: 992px) {
+    /*-----------Navigation Menu Page-------------*/
+    .temp-menu {
+        margin-right: .5px;
+    }
+
+    body, body.body_es {
+        padding-top: 106px;
+    }
+
+    .anchorpd:before {
+        display: block;
+        content: " ";
+        margin-top: -105px;
+        height: 105px;
+        visibility: hidden;
+    }
+
+	/*-----------Contact Page-------------*/
+	.cover-heading-contact {
+	   padding-top: 50px;
+	}
+
+	.cover-heading-contact-es {
+        padding-top: 80px;
+	}
+
+	.headingmobile {
+		text-align:left;
+		padding-left:165px;
+	}
+
+	.dxster, .elderly, .threeppl, .house, .microscope, .flashbulb, .brain, .book, .dna, .clipboard, .doctor, .molocule, .lightbulb, .calculator, .dish, .computer {
+	   transform: scale(.9);
+	}
+
+
+	/*-----------Team Page-------------*/
+	.bio:nth-child(10n+6) {
+        margin-left: 97px;
+    }
+
+    .bio {
+    	margin-left:2%;
+    }
+
+    .teamtpmrgn {
+	   margin-top: 5px !important;
+	}
+    .teamtpmrgn-sp{
+        margin-top:40px !important;
+    }
+
+	.member-img {
+		width: 100%;
+	}
+
+	/*-----------News Page-------------*/
+	.carousel-vertical {
+			display: none;
+	}
+
+	.carousel-horizontal{
+		display: block;
+	}
+
+}
+
+
+/*-----------Media Query 1000px wide or wider-------------*/
+@media screen and (min-width: 1000px) {
+	/*-----------Contact Page-------------*/
+	.sunset-img-contact {
+        height: 650px;
+	}
+
+	.contact-img {
+        margin-bottom: 50px;
+	}
+
+	.announce-img-contact {
+				height: 250px;
+	}
+
+}
+
+
+
+/*-----------Media Query 1200px wide or wider-------------*/
+@media screen and (min-width: 1200px) {
+	/*-----------All Pages-------------*/
+    body, body.body_es {
+        padding-top: 101px;
+    }
+
+    /*-----------Contact Page-------------*/
+		.headingmobile {
+		text-align:left;
+		padding-left:216px;
+	}
+
+	.announce-img {
+		background-position: center right;
+	}
+
+	.sunset-img {
+		background-position: center right;
+	}
+
+	.slogan {
+		color:white;
+	}
+
+	.message {
+		color:white;
+	}
+
+	.full-message {
+		color:black;
+	}
+
+	/*-----------Team Page-------------*/
+	.bio:nth-child(11n+7) {
+        margin-left: 115px;
+    }
+
+    .bio:nth-child(10n+6) {
+        margin-left: 3%;
+    }
+
+    .bio {
+    	margin-left:3%;
+    }
+
+    .teamtpmrgn-sp {
+        margin-top: 5px !important;
+    }
+
+    /*-----------Scientists Page-------------*/
+    .clearboth-md {
+        clear:none;
+    }
+
+		/*-----------News Page-------------*/
+		.carousel-horizontal{
+			height: 290px;
+		}
+
+		.article-left > a {
+		    max-height: 245.78px;
+		}
+
+		.article-right{
+			padding-top: 10px;
+		}
+}
+
+
+/*-----------Media Query 1600px wide or wider-------------*/
+@media screen and (min-width: 1600px) {
+	/*-----------Learn Page-------------*/
+	.learn-img {
+	   background-position: top 60% center;
+        background-color: rgba(28, 28, 28, 0.98);
+	}
+
+	.pagetitles, .pagetitles-rsrc {
+	   padding-left: 12%;
+	}
+
+}

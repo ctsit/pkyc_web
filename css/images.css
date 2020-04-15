@@ -1,0 +1,61 @@
+/*
+This stylesheet provides the images for the carousel on the home page. If you want to add additional images, you centered
+to create a new block and increment the count. e.g. ".slide?"
+*/
+
+.active-slide {
+	background-color: #fff;
+	background-image: url(../images/sunset.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.slide1 {
+	background-color: #fff;
+	background-image: url(../images/glasses-close-up-blur-nostalgic.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.slide2 {
+	background-color: #fff;
+	background-image: url(../images/eventsNov2017Luncheon.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.slide3 {
+	background-color: #fff;
+	background-image: url(../images/Elderly_people_along_beach.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.carousel, .carousel-inner{
+	height: 100%;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-control {
+  &.right, &.left {
+    background-image: none;
+  }
+}
+
+.carousel .item {
+  min-height: 350px;
+	min-height: 50vh;
+  height: 100%;
+  width: 100%;
+}
