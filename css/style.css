@@ -39,16 +39,21 @@ h5 {
 	font-weight:700;
 }
 
+font {
+	font-family: 'Hind', sans-serif;
+	font-weight:1;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 1;
   overflow: hidden;
 }
 
 li {
     font-family: 'Hind', sans-serif;
-    font-size: 14pt;
+    font-size: 10pt;
 }
 
 li a {
@@ -60,6 +65,10 @@ li a {
 	float:left;
 }
 
+.my-icon {
+	line-height: inherit!important;
+	vertical-align: 1em;
+}
 .larger__txt {
     font-size: 16pt;
 }
