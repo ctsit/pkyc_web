@@ -47,7 +47,7 @@ font {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 1;
+  padding: 0;
   overflow: hidden;
 }
 
@@ -63,6 +63,18 @@ li a {
   padding: 16px;
   text-decoration: none;
 	float:left;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .my-icon {
