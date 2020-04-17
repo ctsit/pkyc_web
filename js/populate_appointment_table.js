@@ -1,7 +1,27 @@
-$.getJSON("https://redcap.ctsi.ufl.edu/redcap/api/?type=module&prefix=redcap_webservices&page=plugins%2Fendpoint&NOAUTH&query_id=FRCOVID_appointment_info&project_id=8258", function(data) {
+$.getJSON("https://redcap.ctsi.ufl.edu/redcap/api/?type=module&prefix=redcap_webservices&page=plugins%2Fendpoint&NOAUTH&query_id=PKY_grade_availability&project_id=8338", function(data) {
     let tbl_body = "";
     let i = 0;
     tbl_body += "<thead><tr>";
+
+    // add any non-present grades
+    let grades = [...Array(13).keys()];
+    grades.forEach(function(grade) {
+        r = data.data.find(element =>
+            element.grade == grade
+        );
+        if (r === undefined) {
+            data.data.push({"grade" : grade.toString(), "available" : "85"});
+        }
+    });
+
+    // sort the added grades
+    data.data.sort(function(a, b) {
+        if (parseInt(a.grade) < parseInt(b.grade)) {
+            return -1;
+        } else if (parseInt(b.grade) < parseInt(a.grade)) {
+            return 1;
+        }
+    });
 
     // dynamically set table header columns based on JSON keys
     let header_titles = data.data[0];
@@ -34,30 +54,15 @@ function mapHeaderNames(k) {
 }
 
 header_names_map = {
-    'location': 'Site',
-    'testing_type': 'Test',
-    'hours': 'Hours',
-    'available': 'Avail'
+    'grade': 'Grade',
+    'available': 'Available Spots'
 };
 
 function mapNames(k, v) {
     switch(k) {
-        case "testing_type":
-            v = (v == 'swabandserum' ? 'Swab and Blood' :
-                    (v == 'swab' ? 'Swab' : v)
-                );
-            break;
-        case "location":
-            let site_short_name = v.match(/\(.*\)/);
-            v = ( site_short_name in location_names_map ? location_names_map[site_short_name] : v);
+        case "grade":
+            v = ( v == '0' ? 'K' : v);
             break;
     }
     return v;
 }
-
-location_names_map = {
-    '(KED)':  'UF Health - Kanapaha ER (KED)',
-    '(SHED)':  'UF Health - Spring Hill ER (SHED)',
-    '(UFEDSERUM)' : 'UF Health - Shands ER (UFEDSERUM)',
-    '(UFED)' : 'UF Health - Shands ER (UFED)'
-};
