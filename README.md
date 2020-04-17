@@ -1,9 +1,9 @@
 # pkyc-web
-PK Younge COVID19 Testing Website
+PK Yonge COVID19 Testing Website
 
 ###
 
-This repo holds the bootstrap website for pkyc.ctsi.ufl.edu that is used to navigate PK Younge students, parents, and teachers to a REDCap survey. The REDCap survey allows students, parents, and teachers to schedule drive up testing for COVID-19.
+This repo holds the bootstrap website for pkyc.ctsi.ufl.edu that is used to navigate PK Yonge students, parents, and teachers to a REDCap survey. The REDCap survey allows students, parents, and teachers to schedule drive up testing for COVID-19.
 
 ## Deployment Instructions
 
